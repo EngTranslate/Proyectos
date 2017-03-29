@@ -25,7 +25,7 @@
 #### Salud/Medicina
 
 * [Aged garlic extract and S-allylcysteine increase the mRNA expression of GLUT3 and GCLC expression level in cerebral ischemia](/nolink)
-* [Un nuevo papel para la transmisión GABAérgica en el control de la expresión del comportamiento sexual de las ratas macho](/no link)
+* [Un nuevo papel para la transmisión GABAérgica en el control de la expresión del comportamiento sexual de las ratas macho](/nolink)
 * [Glial amino acid transporters and glucose incorporation](/nolink)
 * [Hematophagy induces the differential expression of proteins in Meccus pallidipennis \(Hemiptera: Reduviidae\) anterior midgut](/nolink)
 * [Gut Microbiota and metabolic endotoxemia in Mexican obesity young subjects](/nolink)
