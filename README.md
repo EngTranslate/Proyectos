@@ -2,6 +2,8 @@
 
 [Start a New Project](https://github.com/EngTranslate/Plantilla)
 
+[Use this how-to guid](https://github.com/EngTranslate/Proyectos/blob/master/guid.md)
+
 ---
 
 ## Technology
