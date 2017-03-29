@@ -1,4 +1,6 @@
-# Finished Projects
+# Uagro Research Projects
+
+[Start a New Project](https://github.com/EngTranslate/Plantilla)
 
 ---
 
@@ -6,20 +8,14 @@
 
 * [Low Cost Wearable Health Care Monitoring System Using a Smartphone](/nolink)
 
----
-
 ## Geology
 
 * 
----
-
 ## Vida
 
 #### Bioinformatica
 
-* 
-#### Genetica
-
+* #### Genetica
 * [Changes in global gene expression profiles induced by HPV 16 E6 oncoprotein variants in cervical carcinoma C33-A cells](/nolink)
 
 #### Salud/Medicina
@@ -42,12 +38,16 @@
 #### Agro-
 
 * [NUTRITIONAL DIAGNOSIS OF AVOCADO \(Persea americana Mill.\) "HASS", SOIL FERTILITY AND WATER QUALITY, IN TEPOZTLÁN, MORELOS](/nolink)
-* [DIGESTIBILITY OF WHEAT HAY HARVEST IN TWO PHENOLOGICAL STAGES AND FERTILIZATION LEVELS IN HOLSTEIN STEERS](/nolink)
 
----
+* [DIGESTIBILITY OF WHEAT HAY HARVEST IN TWO PHENOLOGICAL STAGES AND FERTILIZATION LEVELS IN HOLSTEIN STEERS](/nolink)
 
 ## Humanidades
 
 #### Sociology
 
 * [Tourism and General Systems Theory \(GST\): an updated revision of the concept\[s\]](/nolink)
+
+---
+
+Editor Code Hack
+
