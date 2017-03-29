@@ -1,5 +1,5 @@
 # Summary
 
 * [Introduction](README.md)
-* [Guid](guid.md)
+* [compose.md](composemd.md)
 
