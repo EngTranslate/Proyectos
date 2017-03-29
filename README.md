@@ -10,12 +10,12 @@
 
 ## Geology
 
-* 
 ## Vida
 
 #### Bioinformatica
 
-* #### Genetica
+#### Genetica
+
 * [Changes in global gene expression profiles induced by HPV 16 E6 oncoprotein variants in cervical carcinoma C33-A cells](/nolink)
 
 #### Salud/Medicina
@@ -34,8 +34,7 @@
 
 #### Microbiología
 
-* 
-#### Agro-
+#### Agro
 
 * [NUTRITIONAL DIAGNOSIS OF AVOCADO \(Persea americana Mill.\) "HASS", SOIL FERTILITY AND WATER QUALITY, IN TEPOZTLÁN, MORELOS](/nolink)
 
