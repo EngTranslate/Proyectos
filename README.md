@@ -51,6 +51,3 @@
 #### Sociology
 
 * [Tourism and General Systems Theory \(GST\): an updated revision of the concept\[s\]](/no link)
-
-
-
