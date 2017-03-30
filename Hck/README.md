@@ -17,7 +17,8 @@ This will modify the appearence and functionality of the web app. You should see
 1. Click on the 'Choose File' button to navigate to the file you wish to translate/review and select it.
 2. You should see the first sentence appear in a box on the screen and the translation in another. If you like the translation you can 'KEEP' it but if you see something that needs changed you should edit it before doing so. \(**warning**: _some features not yet completed_\)
 3. Once you have finished with one sentence you can click on the arrow button to advance. You should edit each entry in the list until the whole file is finished. If you need to go back you can do so as well.
-4. When you are finished you should save the doccument.
+4. When you are finished you should save the doccument to the correct directory.
+5. Don't forget to 'push' the updated project to your github repository so that others can see it!
 
 
 
