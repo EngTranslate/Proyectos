@@ -22,3 +22,5 @@ de estos servicios suele ser muy alto.
 
 Si eres un investigadór de UAGro y usas GitHub **puedes recibir estos servicios completamente 
 :sparkles:gratiz:sparkles:**. Eso es un apoyo que seguramente no recibirás en ningun otro lugar.
+En adicción, por trabajar en la comunidad UAGro. todas tus contribuciones y obras siempre estaran 
+aqui como un testimonio al mundo de su duro trabajo. 
