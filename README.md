@@ -1,8 +1,8 @@
 # Uagro Research Projects
 
-| :pencil2: [Learn how to write an Article on GitHub](https://github.com/EngTranslate/Proyectos/blob/master/guid.md) | :memo:[Start a New Project from a Template](https://github.com/EngTranslate/Plantilla) |
+| :pencil2: [Learn how to write an Article on GitHub](https://github.com/EngTranslate/Proyectos/blob/master/guid.md) | :memo: [Start a New Project from a Template](https://github.com/EngTranslate/Plantilla) |
 | :--- | :--- |
-| Learn How to Write an article o | :ledger:[Example Project](https://github.com/TravisA9/Plantilla) |
+| Learn How to Write an article o | :ledger: [Example Project](https://github.com/TravisA9/Plantilla) |
 
 ---
 
