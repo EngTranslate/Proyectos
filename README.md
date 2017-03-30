@@ -5,6 +5,7 @@
 | :memo: [Start a New Project from a Template](https://github.com/EngTranslate/Plantilla) | :ledger: [Example Project](https://github.com/TravisA9/Plantilla) |
 
 ---
+Each title should be linked to the Final Draft of it's respective project page! (all current links are dead)
 
 ## Technology
 
