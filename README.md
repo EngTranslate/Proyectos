@@ -1,8 +1,8 @@
 # Uagro Research Projects
 
-[Start a New Project](https://github.com/EngTranslate/Plantilla)
-
-[Use this how-to guid](https://github.com/EngTranslate/Proyectos/blob/master/guid.md)
+| [Learn how to write an Article on GitHub](https://github.com/EngTranslate/Proyectos/blob/master/guid.md) | [Start a New Project from a Template](https://github.com/EngTranslate/Plantilla) |
+| :--- | :--- |
+| Learn How to Write an article o | Example Project |
 
 ---
 
