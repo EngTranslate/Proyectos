@@ -2,10 +2,11 @@
 
 
 ## Example Project
-:ledger: [NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE](https://github.com/TravisA9/Plantilla) 
+* [NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE](https://github.com/TravisA9/Plantilla) 
 
 
-:memo: [Start a New Project from a Template](https://github.com/EngTranslate/Plantilla) :octocat: [Advantages of using GitHub](https://github.com/EngTranslate/Proyectos/blob/master/docs/why.md) :pencil2: [Learn how to write an Article on GitHub](https://github.com/EngTranslate/Proyectos/blob/master/docs/guid.md)
+:memo: [Start a New Project from a Template](https://github.com/EngTranslate/Plantilla)   :octocat: [Advantages of using GitHub](https://github.com/EngTranslate/Proyectos/blob/master/docs/why.md)   :pencil2: [Learn how to write an Article on GitHub](https://github.com/EngTranslate/Proyectos/blob/master/docs/guid.md)
+
 ---
 
 ## Technology
