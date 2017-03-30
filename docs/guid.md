@@ -5,8 +5,8 @@
 En primer lugar, debe asegurarse de que su sistema está configurado para trabajar con GitHub.
 
 1. [Instalar Git](https://git-scm.com/book/en/v1/Getting-Started-Installing-Git) en tu ordenador. Git es un sistema para administrar archivos bajo circunstancias complejas. ¡No te preocupes, lo aprenderás muy rápido!
-2. Configure su cuenta [Github propia](https://github.com).
-3. Instalar el [editor de texto GitBook](https://www.gitbook.com).
+2. Configure su cuenta [Github](https://github.com) propia.
+3. Instalar el editor de texto [GitBook](https://www.gitbook.com).
 
 Ahora usted esta listo para comenzar a escribir un artículo.
 
