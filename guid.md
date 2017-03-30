@@ -16,6 +16,7 @@ To make it easy to write and organise all the information, references, tables, d
 
 1. [Create a New project](#). You can do this by forking the template project and giving it a new name.
 2. You should now be able to just fill the data in for each section. If you need to add a new section you can; you don't have to stick to the template. You should be able to find general instructions in each section.
+3. Once all the information is together you will need to [Compose the final draft](https://github.com/EngTranslate/Proyectos/blob/master/compose.md) from the sections.
 
 
 
