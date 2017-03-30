@@ -1,11 +1,12 @@
 # Uagro Research Projects
 
-| :octocat: [Advantages of using GitHub](https://github.com/EngTranslate/Proyectos/blob/master/docs/why.md) | :pencil2: [Learn how to write an Article on GitHub](https://github.com/EngTranslate/Proyectos/blob/master/docs/guid.md) |
-| :--- | :--- |
-| :memo: [Start a New Project from a Template](https://github.com/EngTranslate/Plantilla) | :ledger: [Example Project](https://github.com/TravisA9/Plantilla) |
 
+## Example Project
+:ledger: [NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE](https://github.com/TravisA9/Plantilla) 
+
+
+:memo: [Start a New Project from a Template](https://github.com/EngTranslate/Plantilla) :octocat: [Advantages of using GitHub](https://github.com/EngTranslate/Proyectos/blob/master/docs/why.md) :pencil2: [Learn how to write an Article on GitHub](https://github.com/EngTranslate/Proyectos/blob/master/docs/guid.md)
 ---
-Each title should be linked to the Final Draft of it's respective project page! (all current links are dead)
 
 ## Technology
 
