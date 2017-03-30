@@ -1,7 +1,6 @@
-# Uagro Research Projects
+# UAGro Projecttos de Investigación
 
-
-#### Example Project
+#### Projecto de Muestra
 * [NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE](https://github.com/TravisA9/Plantilla) 
 
 
@@ -10,15 +9,14 @@
 
 ---
 
-## Technology
-
+## Technología
 * [Low Cost Wearable Health Care Monitoring System Using a Smartphone](https://github.com/EngTranslate/Proyectos/blob/master/docs/deadlink.md)
 
-## Geology
+## Geología
 
 ## Vida
 
-#### Genetica
+#### Genética
 
 * [Changes in global gene expression profiles induced by HPV 16 E6 oncoprotein variants in cervical carcinoma C33-A cells](https://github.com/EngTranslate/Proyectos/blob/master/docs/deadlink.md)
 
@@ -44,7 +42,7 @@
 
 ## Humanidades
 
-#### Sociology
+#### Sociología
 
 * [Tourism and General Systems Theory \(GST\): an updated revision of the concept\[s\]](https://github.com/EngTranslate/Proyectos/blob/master/docs/deadlink.md)
 
