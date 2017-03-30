@@ -6,7 +6,7 @@
 * Colaboracion: Tus compañeros podran contribuir con mayor facilidad y siempre van a poder ver el estado actual del proyecto.
 * Mas Apoyo: Aunque si puedes hacer un proyecto privado, tambien tienes la opcion de permitir que todos vean el proyecto. En este caso es posible que investigadores y otras personas contribuyen a su proyecto.
 * Documentacion: Cada aspecto de su proyecto será [documentado](https://github.com/TravisA9/Plantilla/graphs/commit-activity). Puedes ver con facilidad quien contribulló y el [indole de la contribución](https://github.com/TravisA9/Plantilla/network). Hay graphicas interactivas del progreso y estado del proyecto.
-* Control de Versión: GitHub te permite hacer multiples coias de cualquier proyecto. Eso te permite usar un proyecto como el base de otro. Tambien, puedes ir atras en el tiempo de un proyecto en el caso que queres hacer cambios.
+* Control de Versión: GitHub te permite hacer multiples copias de cualquier proyecto. Eso te permite usar un proyecto como el base para desarrollar otro. Tambien, puedes ir atras en el tiempo de un proyecto en el caso que queres hacer cambios.
 
 Hay muchas rasones para usar GitHub que no se ha mencionado aqui. Para aprender mas, puedes hacer una busqueda de 
 tutoriales sobre GitHub.
