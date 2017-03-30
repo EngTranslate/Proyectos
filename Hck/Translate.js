@@ -1,5 +1,3 @@
-
-/////////////// Globals ////////////////////////////////////
 Junk = ["gb","gt-appbar","select_document","ft-l","ft-r","gt-ft"];
 var re = /(\d\.|\bet\sal\.|\bfig\.|\bFig\.|[^\.!\?])+[\.!\?]+/g;
 var sentences = [];
@@ -44,8 +42,22 @@ function openFile(event) {
 	    reader.onload = function(){
 	      var dataURL = reader.result;
 	      var output = document.getElementById('source');
-		  sentences = dataURL.match(re)
-	      output.value = sentences[2]; //dataURL;
+		  sentences = dataURL.match(re);
+		  index = 0;
+	      output.value = sentences[index]; //dataURL;
+
+	      var trackbar = document.createElement("input");
+				trackbar.style.width  = "400px";
+				trackbar.setAttribute("id", "trackbar");
+				trackbar.setAttribute("type", "range");
+				trackbar.setAttribute("min", index );
+				trackbar.setAttribute("max", sentences.length-1 );
+				document.getElementById("gt-promo-lr").appendChild(trackbar);
+				document.getElementById("trackbar").addEventListener("click",  goTo );
+				//trackbar.style.border  = "thin solid orange";
+				//trackbar.style.borderRadius  = "9px";
+				//trackbar.style.padding = "10px 10px 10px 10px";
+	      //<input type="range"  min="0" max="100" />
 	    };
 	    if(input.files!==undefined){
 	alert(reader.result);
@@ -58,12 +70,12 @@ document.getElementById("file").addEventListener("click",  openFile );
 //------------------backward-------------------------------
 var node = document.createElement("input");
 node.setAttribute("type", "button");
-node.style.padding = "10px 10px 10px 10px";
+node.style.padding = "5px 5px 5px 5px";
 node.value = "<";
 node.style.fontSize = "large";
 node.id = "goBack";
 document.getElementById("gt-promo-lr").appendChild(node);
-var index = 0;
+
 
 function goBack(event) {
 	if(index>0){ index--;
@@ -77,7 +89,7 @@ document.getElementById("goBack").addEventListener("click",  goBack );
 //------------------backward-------------------------------
 var node = document.createElement("input");
 node.setAttribute("type", "button");
-node.style.padding = "10px 10px 10px 10px";
+node.style.padding = "5px 5px 5px 5px";
 node.value = ">";
 node.style.fontSize = "large";
 node.id = "goForward";
@@ -98,18 +110,3 @@ node.id = "report";
 document.getElementById("gt-promo-lr").appendChild(node);
 
 document.getElementById("goForward").addEventListener("click",  goForward );
-
-
-
-
-
-
-
-
-//document.getElementById("source").value;
-//document.getElementById("result_box").textContent;
-//(\d\.|\bet\sal\.|\bfig\.|\bFig\.|[^\.!\?])+[\.!\?]+
-//node.innerHTML = "Load File!";
-//node.setAttribute("class", "goog-inline-block jfk-button jfk-button-standard jfk-button-collapse-right"); ,"gt-promo-lr","gt-ft-promos",
-//node.setAttribute("role", "button");
-//document.getElementById("gt-sl-sugg").appendChild("<div id=\"file\" role=\"button\" class=\"goog-inline-block jfk-button jfk-button-standard jfk-button-collapse-right\"   style=\"user-select: none;\">Load File</div>");
