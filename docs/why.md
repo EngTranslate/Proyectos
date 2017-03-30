@@ -20,5 +20,5 @@ fin de publicar los resultados en inglés, vas a tener que producir un documento
 En este caso, tal vez, tendrías que buscar un traductór y despues un revisor. Pero, el costo 
 de estos servicios suele ser muy alto. 
 
-Si eres un investigadór de UAGro y usas GitHub puedes recibir estos servicios completamente 
-:sparkles:gratiz:sparkles:. Eso es un apoyo que seguramente no recibirás en ningun otro lugar.
+Si eres un investigadór de UAGro y usas GitHub *puedes recibir estos servicios completamente 
+:sparkles:gratiz:sparkles:*. Eso es un apoyo que seguramente no recibirás en ningun otro lugar.
