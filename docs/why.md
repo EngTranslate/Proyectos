@@ -12,7 +12,8 @@ Hay muchas rasones para usar GitHub que no se ha mencionado aqui. Para aprender 
 tutoriales sobre GitHub.
 
 
-***Beneficios de la Comunidad***
+***Beneficios de la Comunidad UAGro***
+
 Ya mencioné algunos beneficios generales de GitHub pero algunos tienen que ver con el 
 apoyo de la Universidad y los investigadores. Si estas elaborando un proyecto con el 
 fin de publicar los resultados en inglés, vas a tener que producir un documento bien escrito.
@@ -20,4 +21,4 @@ En este caso, tal vez, tendrías que buscar un traductór y despues un revisor. 
 de estos servicios suele ser muy alto. 
 
 Si eres un investigadór de UAGro y usas GitHub puedes recibir estos servicios completamente 
-gratiz:sparkles:. Eso es un apoyo que seguramente no recibirás en ningun otro lugar.
+:sparkles:gratiz:sparkles:. Eso es un apoyo que seguramente no recibirás en ningun otro lugar.
