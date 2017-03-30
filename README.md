@@ -18,8 +18,6 @@
 
 ## Vida
 
-#### Bioinformatica
-
 #### Genetica
 
 * [Changes in global gene expression profiles induced by HPV 16 E6 oncoprotein variants in cervical carcinoma C33-A cells](https://github.com/EngTranslate/Proyectos/blob/master/docs/deadlink.md)
@@ -37,8 +35,6 @@
 
 * [Geographic distribution extension of the Gastropoda species found in Priority Marine Region No. 32, Guerrero State, Mexico](https://github.com/EngTranslate/Proyectos/blob/master/docs/deadlink.md)
 * [Temporal variation of the pelagic copepod community in Acapulco Bay, México.](https://github.com/EngTranslate/Proyectos/blob/master/docs/deadlink.md)
-
-#### Microbiología
 
 #### Agro
 
