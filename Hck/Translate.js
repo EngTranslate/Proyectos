@@ -1,6 +1,9 @@
+
+/////////////// Globals ////////////////////////////////////
 Junk = ["gb","gt-appbar","select_document","ft-l","ft-r","gt-ft"];
 var re = /(\d\.|\bet\sal\.|\bfig\.|\bFig\.|[^\.!\?])+[\.!\?]+/g;
 var sentences = [];
+var results = [];
 var index = 0;
 
 /////////////// Remove trash nodes from page ////////////////////////////////////
@@ -35,6 +38,14 @@ node.setAttribute("type", "file");
 node.setAttribute("accept", "text");
 node.id = "file";
 document.getElementById("gba").appendChild(node);
+
+function goTo(event) {
+	var value = event.target.value;
+	index = value;
+	var output = document.getElementById('source');
+	output.value = sentences[index];
+    document.getElementById("report").innerHTML = "" + index + " of " + sentences.length;
+}
 /////////////// Load File ////////////////////////////////////
 function openFile(event) {
 	    var input = event.target;
@@ -45,6 +56,8 @@ function openFile(event) {
 		  sentences = dataURL.match(re);
 		  index = 0;
 	      output.value = sentences[index]; //dataURL;
+	      for (var i = sentences.length - 1; i >= 0; i--) { results[i] = ""; }
+
 
 	      var trackbar = document.createElement("input");
 				trackbar.style.width  = "400px";
@@ -53,11 +66,7 @@ function openFile(event) {
 				trackbar.setAttribute("min", index );
 				trackbar.setAttribute("max", sentences.length-1 );
 				document.getElementById("gt-promo-lr").appendChild(trackbar);
-				document.getElementById("trackbar").addEventListener("click",  goTo );
-				//trackbar.style.border  = "thin solid orange";
-				//trackbar.style.borderRadius  = "9px";
-				//trackbar.style.padding = "10px 10px 10px 10px";
-	      //<input type="range"  min="0" max="100" />
+				document.getElementById("trackbar").addEventListener("change",  goTo );
 	    };
 	    if(input.files!==undefined){
 	alert(reader.result);
@@ -82,6 +91,7 @@ function goBack(event) {
 	          var output = document.getElementById('source');
 		      output.value = sentences[index];
               document.getElementById("report").innerHTML = "" + index + " of " + sentences.length;
+              document.getElementById("trackbar").value = index;
 		  }
 }
 
@@ -101,6 +111,7 @@ function goForward(event) {
 	          var output = document.getElementById('source');
 		      output.value = sentences[index];}
               document.getElementById("report").innerHTML = "" + index + " of " + sentences.length;
+              document.getElementById("trackbar").value = index;
 }
 //------------------report-------------------------------
 var node = document.createElement("DIV");
@@ -110,3 +121,57 @@ node.id = "report";
 document.getElementById("gt-promo-lr").appendChild(node);
 
 document.getElementById("goForward").addEventListener("click",  goForward );
+
+//------------------Approve Edit-------------------------------
+var node = document.createElement("input");
+node.setAttribute("type", "button");
+node.style.padding = "5px 5px 5px 5px";
+node.value = "Ok!";
+node.style.fontSize = "large";
+node.id = "good";
+document.getElementById("gt-promo-lr").appendChild(node);
+document.getElementById("good").addEventListener("click",  AddTranslatedText );
+
+
+function AddTranslatedText() {
+	var value = document.getElementById("result_box").textContent;
+	results[index] = value;
+}
+
+//------------------ SAVE -------------------------------
+var node = document.createElement("input");
+node.setAttribute("type", "button");
+node.style.padding = "5px 5px 5px 5px";
+node.value = "Save!";
+node.style.fontSize = "large";
+node.id = "save";
+document.getElementById("gt-promo-lr").appendChild(node);
+document.getElementById("save").addEventListener("click",  saveTextAsFile );
+
+function saveTextAsFile(){
+	value = "";
+	for (var i = sentences.length - 1; i >= 0; i--) { value = value + results[i] + " "; }
+
+
+    var textFileAsBlob = new Blob([value], {type:'text/plain'});
+    var downloadLink = document.createElement("a");
+    downloadLink.download = "final-draft.md";
+    downloadLink.innerHTML = value;
+    if (window.webkitURL != null)
+    {
+        // Chrome allows the link to be clicked
+        // without actually adding it to the DOM.
+        downloadLink.href = window.webkitURL.createObjectURL(textFileAsBlob);
+    }
+    else
+    {
+        // Firefox requires the link to be added to the DOM
+        // before it can be clicked.
+        downloadLink.href = window.URL.createObjectURL(textFileAsBlob);
+        downloadLink.onclick = destroyClickedElement;
+        downloadLink.style.display = "none";
+        document.body.appendChild(downloadLink);
+    }
+
+    downloadLink.click();
+}
