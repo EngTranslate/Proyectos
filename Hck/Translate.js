@@ -1,10 +1,10 @@
-
 /////////////// Globals ////////////////////////////////////
 Junk = ["gb","gt-appbar","select_document","ft-l","ft-r","gt-ft"];
 var re = /(\d\.|\bet\sal\.|\bfig\.|\bFig\.|[^\.!\?])+[\.!\?]+/g;
 var sentences = [];
 var results = [];
 var index = 0;
+var box = document.getElementById("result_box");
 
 /////////////// Remove trash nodes from page ////////////////////////////////////
 for (var i = Junk.length - 1; i >= 0; i--) {
@@ -45,6 +45,10 @@ function goTo(event) {
 	var output = document.getElementById('source');
 	output.value = sentences[index];
     document.getElementById("report").innerHTML = "" + index + " of " + sentences.length;
+              if(results[index].length > 2){
+              	box.style.border  = "thin solid steelblue";
+              }
+              else{box.style.border  = "thin solid white";}
 }
 /////////////// Load File ////////////////////////////////////
 function openFile(event) {
@@ -92,11 +96,15 @@ function goBack(event) {
 		      output.value = sentences[index];
               document.getElementById("report").innerHTML = "" + index + " of " + sentences.length;
               document.getElementById("trackbar").value = index;
+              if(results[index].length > 2){
+              	box.style.border  = "thin solid steelblue";
+              }
+              else{box.style.border  = "thin solid white";}
 		  }
 }
 
 document.getElementById("goBack").addEventListener("click",  goBack );
-//------------------backward-------------------------------
+//------------------forward-------------------------------
 var node = document.createElement("input");
 node.setAttribute("type", "button");
 node.style.padding = "5px 5px 5px 5px";
@@ -112,6 +120,10 @@ function goForward(event) {
 		      output.value = sentences[index];}
               document.getElementById("report").innerHTML = "" + index + " of " + sentences.length;
               document.getElementById("trackbar").value = index;
+              if(results[index].length > 2){
+              	box.style.border  = "thin solid steelblue";
+              }
+              else{box.style.border  = "thin solid white";}
 }
 //------------------report-------------------------------
 var node = document.createElement("DIV");
@@ -135,6 +147,7 @@ document.getElementById("good").addEventListener("click",  AddTranslatedText );
 
 function AddTranslatedText() {
 	var value = document.getElementById("result_box").textContent;
+	box.style.border  = "thin solid steelblue";
 	results[index] = value;
 }
 
@@ -145,7 +158,7 @@ node.style.padding = "5px 5px 5px 5px";
 node.value = "Save!";
 node.style.fontSize = "large";
 node.id = "save";
-document.getElementById("gt-promo-lr").appendChild(node);
+document.getElementById("gba").appendChild(node);
 document.getElementById("save").addEventListener("click",  saveTextAsFile );
 
 function saveTextAsFile(){
