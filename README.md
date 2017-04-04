@@ -1,4 +1,4 @@
-# UAGro Projecttos de Investigación...
+# UAGro Proyectos de Investigación
 
 #### Projecto de Muestra
 * [NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE](https://github.com/TravisA9/Plantilla) 
