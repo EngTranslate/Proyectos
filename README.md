@@ -4,7 +4,7 @@
 * [NEURAL MACHINE TRANSLATION BY JOINTLY LEARNING TO ALIGN AND TRANSLATE](https://github.com/TravisA9/Plantilla) 
 
 
-|:memo: [Crea un Proyecto Nuevo con Plantilla Sencilla](https://github.com/EngTranslate/https://github.com/EngTranslate/PlantillaSencilla) | :memo: [Crea un Proyecto Nuevo con Plantilla](https://github.com/EngTranslate/Plantilla)  |
+|:memo: [Crea un Proyecto Nuevo con Plantilla Sencilla](https://github.com/EngTranslate/https://github.com/EngTranslate/PlantillaSencilla) | :ledger: [Crea un Proyecto Nuevo con Plantilla](https://github.com/EngTranslate/Plantilla)  |
 |-----|-----|
 |:octocat: [Ventagas del uso de GitHub](https://github.com/EngTranslate/Proyectos/blob/master/docs/why.md)  | :pencil2: [Aprenda escribir un articulo en GitHub](https://github.com/EngTranslate/Proyectos/blob/master/docs/guid.md)|
 
