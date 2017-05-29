@@ -115,6 +115,7 @@ document.getElementById("gt-promo-lr").appendChild(node);
 
 
 function goForward(event) {
+     document.getElementById("result_box").textContent = "";
 	if(index<sentences.length){ index++;
 	          var output = document.getElementById('source');
 		      output.value = sentences[index];}
@@ -149,6 +150,7 @@ function AddTranslatedText() {
 	var value = document.getElementById("result_box").textContent;
 	box.style.border  = "thin solid steelblue";
 	results[index] = value;
+	goForward();
 }
 
 //------------------ SAVE -------------------------------
@@ -163,7 +165,7 @@ document.getElementById("save").addEventListener("click",  saveTextAsFile );
 
 function saveTextAsFile(){
 	value = "";
-	for (var i = sentences.length - 1; i >= 0; i--) { value = value + results[i] + " "; }
+	for (var i = 0; i <= sentences.length; i++) { value = value + results[i] + " "; }
 
 
     var textFileAsBlob = new Blob([value], {type:'text/plain'});
